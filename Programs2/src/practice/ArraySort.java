@@ -11,8 +11,8 @@ public class ArraySort {
 		//Arrays.sort(array);
 		
 		//int [] array = bubbleSort(array1);
-		//int [] array = selectionSort(array1);
-		int [] array = insertionSort(array1);
+		int [] array = selectionSort(array1);
+		//int [] array = insertionSort(array1);
 		
 		for(int i : array) {
 			System.out.println(i);
